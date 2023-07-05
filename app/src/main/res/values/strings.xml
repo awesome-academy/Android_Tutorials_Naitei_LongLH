@@ -1,2 +1,10 @@
 <resources>
+    <string name="enter_message">Enter your message here</string>
+    <string name="enter_reply">Enter your reply here</string>
+    <string name="send">Send</string>
+    <string name="reply">Reply</string>
+    <string name="message_receive">Message Receive</string>
+    <string name="reply_receive">Reply Receive</string>
+    <string name="placeholder_message">"Please enter message</string>
+    <string name="placeholder_reply">"Please enter reply</string>
 </resources>

@@ -2,6 +2,7 @@ plugins {
     id(Plugins.android_application)
     kotlin(Plugins.kotlin_android)
     id(Plugins.detekt).version(Versions.detekt)
+//    id("org.jetbrains.kotlin.android")
     jacoco
 }
 
@@ -55,6 +56,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    viewBinding.isEnabled = true
 }
 
 detekt {
@@ -170,6 +172,7 @@ dependencies {
     implementation(Deps.appcompat)
     implementation(Deps.material)
     implementation(Deps.constraint_layout)
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
 
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)

@@ -2,7 +2,6 @@ plugins {
     id(Plugins.android_application)
     kotlin(Plugins.kotlin_android)
     id(Plugins.detekt).version(Versions.detekt)
-//    id("org.jetbrains.kotlin.android")
     jacoco
 }
 
@@ -173,7 +172,6 @@ dependencies {
     implementation(Deps.material)
     implementation(Deps.constraint_layout)
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
-
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
 }

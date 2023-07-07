@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".SecondActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ImplicitIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExampleFragmentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

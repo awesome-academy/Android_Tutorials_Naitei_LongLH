@@ -7,4 +7,20 @@
     <string name="reply_receive">Reply Receive</string>
     <string name="placeholder_message">"Please enter message</string>
     <string name="placeholder_reply">"Please enter reply</string>
+    <string name="website">Website</string>
+    <string name="enter_url_website">Please enter link website</string>
+    <string name="android_website">https://developer.android.com/</string>
+    <string name="open_website">Open Website</string>
+    <string name="clear_input">Clear Input</string>
+    <string name="location">Location</string>
+    <string name="enter_location">Please enter location</string>
+    <string name="hoi_an">Hội An</string>
+    <string name="open_location">Open Location</string>
+    <string name="text_messaging">Text Messaging</string>
+    <string name="enter_text_message">Please enter message</string>
+    <string name="how_are_you_today">How are you today?</string>
+    <string name="send_message">Send Message</string>
+    <string name="please_enter_website">Please enter website</string>
+    <string name="please_enter_location">Please enter location</string>
+    <string name="please_enter_message">Please enter message</string>
 </resources>

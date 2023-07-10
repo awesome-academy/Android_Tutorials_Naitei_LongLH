@@ -15,15 +15,15 @@ class ExampleFragmentActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnEnglish.setOnClickListener {
-            replaceFragment(EnglishFragment())
+            replaceFragment(FunFactCatEnglishFragment())
         }
 
         binding.btnJapanese.setOnClickListener {
-            replaceFragment(JapaneseFragment())
+            replaceFragment(FunFactCatJapaneseFragment())
         }
 
         binding.btnVietnamese.setOnClickListener {
-            replaceFragment(VietnameseFragment())
+            replaceFragment(FunFactCatVietnameseFragment())
         }
     }
 

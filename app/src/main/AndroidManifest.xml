@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
         <activity
+            android:name=".CatDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".SecondActivity"
             android:exported="false" />
         <activity
@@ -20,6 +23,9 @@
             android:exported="false" />
         <activity
             android:name=".ExampleFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DynamicFragmentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

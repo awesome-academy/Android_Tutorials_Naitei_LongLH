@@ -2,12 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraint_layout_vietnamese_fragment"
+    android:id="@+id/constraint_layout_fun_fact_cat_english_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".VietnameseFragment"
+    tools:context=".FunFactCatEnglishFragment"
     tools:ignore="UseCompoundDrawables">
 
     <ImageView
@@ -23,11 +23,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_interesting_fact_about_cat"
+        android:id="@+id/tv_english_interesting_fact_about_cat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top|center"
-        android:text="@string/vietnamese_interesting_facts_about_cat"
+        android:text="@string/english_interesting_facts_about_cat"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_20"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,11 +37,11 @@
         tools:layout_editor_absoluteX="@dimen/dp_0" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_fact_about_cat_1"
+        android:id="@+id/tv_english_fact_about_cat_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_20"
-        android:text="@string/vietnamese_fact_about_cat_1"
+        android:text="@string/english_fact_about_cat_1"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_12"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,11 +50,11 @@
         tools:layout_editor_absoluteX="@dimen/dp_0" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_fact_about_cat_2"
+        android:id="@+id/tv_english_fact_about_cat_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_20"
-        android:text="@string/vietnamese_fact_about_cat_2"
+        android:text="@string/english_fact_about_cat_2"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_12"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,11 +64,11 @@
         tools:layout_editor_absoluteX="@dimen/dp_23" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_fact_about_cat_3"
+        android:id="@+id/tv_english_fact_about_cat_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_20"
-        android:text="@string/vietnamese_fact_about_cat_3"
+        android:text="@string/english_fact_about_cat_3"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_12"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,11 +79,11 @@
         app:layout_constraintVertical_bias="0.626" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_fact_about_cat_4"
+        android:id="@+id/tv_english_fact_about_cat_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_20"
-        android:text="@string/vietnamese_fact_about_cat_4"
+        android:text="@string/english_fact_about_cat_4"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_12"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,11 +93,11 @@
         tools:layout_editor_absoluteX="@dimen/dp_23" />
 
     <TextView
-        android:id="@+id/tv_vietnamese_fact_about_cat_5"
+        android:id="@+id/tv_english_fact_about_cat_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_20"
-        android:text="@string/vietnamese_fact_about_cat_5"
+        android:text="@string/english_fact_about_cat_5"
         android:textColor="@color/purple_700"
         android:textSize="@dimen/sp_12"
         app:layout_constraintBottom_toBottomOf="parent"

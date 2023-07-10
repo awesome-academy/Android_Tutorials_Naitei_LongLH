@@ -5,16 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.sun.android.databinding.FragmentVietnameseBinding
+import com.sun.android.databinding.FragmentFunFactCatVietnameseBinding
 
-class JapaneseFragment : Fragment() {
+class FunFactCatVietnameseFragment : Fragment() {
 
-    private val binding: FragmentVietnameseBinding by lazy {
-        FragmentVietnameseBinding.inflate(layoutInflater)
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private val binding: FragmentFunFactCatVietnameseBinding by lazy {
+        FragmentFunFactCatVietnameseBinding.inflate(layoutInflater)
     }
 
     override fun onCreateView(
@@ -26,6 +22,6 @@ class JapaneseFragment : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = JapaneseFragment()
+        fun newInstance() = FunFactCatVietnameseFragment()
     }
 }

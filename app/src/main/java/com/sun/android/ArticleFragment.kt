@@ -5,27 +5,22 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.sun.android.databinding.FragmentSimpleBinding
+import com.sun.android.databinding.FragmentArticleBinding
 
-class SimpleFragment : Fragment() {
-    private val YES = 0
-    private val NO = 1
+private const val YES = 0
+private const val NO = 1
 
-    private val binding: FragmentSimpleBinding by lazy {
-        FragmentSimpleBinding.inflate(layoutInflater)
-    }
+class ArticleFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private val binding: FragmentArticleBinding by lazy {
+        FragmentArticleBinding.inflate(layoutInflater)
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val rootView = binding.root
-
-        binding.radioGroup.setOnCheckedChangeListener { group, checkedId ->
+        binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
             val radioButton = binding.radioGroup.findViewById<View>(checkedId)
             val index = binding.radioGroup.indexOfChild(radioButton)
             val textView = binding.fragmentHeader
@@ -38,11 +33,11 @@ class SimpleFragment : Fragment() {
             }
         }
 
-        return rootView
+        return binding.root
     }
 
     companion object {
         @JvmStatic
-        fun newInstance() = SimpleFragment()
+        fun newInstance() = ArticleFragment()
     }
 }

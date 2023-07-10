@@ -140,4 +140,12 @@
     <string name="vietnamese_language">vn</string>
     <string name="english_language">en</string>
     <string name="japanese_language">jp</string>
+    <string name="team_1">Team 1</string>
+    <string name="minus_button">Minus Button</string>
+    <string name="plus_button">Plus Button</string>
+    <string name="score_team_1">Score Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="score_team_2">Score Team 2</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
 </resources>

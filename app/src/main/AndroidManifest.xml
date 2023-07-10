@@ -26,6 +26,10 @@
             android:exported="false" />
         <activity
             android:name=".DynamicFragmentActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ScoreKeeperActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

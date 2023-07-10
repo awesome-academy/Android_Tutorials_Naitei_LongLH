@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFFF99</color>
     <color name="gray">#E5E5E5</color>
+    <color name="colorPrimaryDay">#FFFFFF</color>
+    <color name="colorPrimaryNight">#000000</color>
 </resources>

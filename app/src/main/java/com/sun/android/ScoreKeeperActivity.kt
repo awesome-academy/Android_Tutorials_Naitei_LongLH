@@ -1,14 +1,12 @@
 package com.sun.android
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import com.sun.android.databinding.ActivityScoreKeeperBinding
-
 
 class ScoreKeeperActivity : AppCompatActivity() {
 
@@ -97,12 +95,12 @@ class ScoreKeeperActivity : AppCompatActivity() {
         if (item.itemId == R.id.night_mode) {
             val nightMode = AppCompatDelegate.getDefaultNightMode()
             if (nightMode == AppCompatDelegate.MODE_NIGHT_YES) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             }
             // Recreate the activity for the theme change to take effect.
-            recreate();
+            recreate()
         }
         return true
     }
@@ -110,7 +108,7 @@ class ScoreKeeperActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putInt(STATE_SCORE_1, binding.tvScoreTeam1.text.toString().toInt())
         outState.putInt(STATE_SCORE_2, binding.tvScoreTeam2.text.toString().toInt())
-        super.onSaveInstanceState(outState);
+        super.onSaveInstanceState(outState)
     }
 
     companion object {

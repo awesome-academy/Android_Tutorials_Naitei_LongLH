@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
         <activity
+            android:name=".DroidCafeDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".CatDetailActivity"
             android:exported="false" />
         <activity
@@ -26,10 +29,12 @@
             android:exported="false" />
         <activity
             android:name=".DynamicFragmentActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".ScoreKeeperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DroidCafeMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

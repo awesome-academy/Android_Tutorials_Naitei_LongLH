@@ -172,6 +172,12 @@ dependencies {
     implementation(Deps.material)
     implementation(Deps.constraint_layout)
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("com.github.chrisbanes:PhotoView:2.1.3")
+    implementation("androidx.recyclerview:recyclerview:1.1.0")
+    // For control over item selection of both touch and mouse driven selection
+    implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation("androidx.cardview:cardview:1.0.0")
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
 }

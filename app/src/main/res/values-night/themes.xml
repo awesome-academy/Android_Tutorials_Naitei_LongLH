@@ -34,4 +34,7 @@
         <item name="android:src">@drawable/white_baseline_shopping_cart_checkout_24</item>
         <item name="contentDescription">"@string/shopping_cart_button</item>
     </style>
+    <style name="NightModeRelativeLayout" parent="Theme.AppCompat">
+        <item name="android:background">@color/night_background</item>
+    </style>
 </resources>

@@ -11,8 +11,8 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
-import com.sun.android.constants.FOOD_NAME_KEY
-import com.sun.android.constants.RESOURCE_ID_KEY
+import com.sun.android.utils.constants.FOOD_NAME_KEY
+import com.sun.android.utils.constants.RESOURCE_ID_KEY
 import com.sun.android.databinding.ActivityDroidCafeDetailBinding
 import java.text.DateFormatSymbols
 import java.text.SimpleDateFormat

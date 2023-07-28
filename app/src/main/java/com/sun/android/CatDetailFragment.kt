@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.sun.android.databinding.FragmentCatDetailBinding
-import com.sun.android.constants.*
+import com.sun.android.utils.constants.*
 
 class CatDetailFragment : Fragment() {
 

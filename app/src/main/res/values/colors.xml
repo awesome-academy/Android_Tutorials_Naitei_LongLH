@@ -12,4 +12,5 @@
     <color name="colorPrimaryDay">#FFFFFF</color>
     <color name="colorPrimaryNight">#000000</color>
     <color name="night_background">#333333</color>
+    <color name="colorPrimaryDark">#151515</color>
 </resources>

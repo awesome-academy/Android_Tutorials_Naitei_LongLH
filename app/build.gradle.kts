@@ -2,6 +2,7 @@ plugins {
     id(Plugins.android_application)
     kotlin(Plugins.kotlin_android)
     id(Plugins.detekt).version(Versions.detekt)
+    id("org.jetbrains.kotlin.plugin.parcelize")
     jacoco
 }
 
@@ -178,6 +179,11 @@ dependencies {
     // For control over item selection of both touch and mouse driven selection
     implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.google.android.material:material:1.4.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.media:media:1.6.0")
+    implementation("com.android.support:palette-v7:28.0.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
 }

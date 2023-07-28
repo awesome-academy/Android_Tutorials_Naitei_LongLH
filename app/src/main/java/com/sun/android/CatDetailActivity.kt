@@ -3,7 +3,10 @@ package com.sun.android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.sun.android.databinding.ActivityCatDetailBinding
-import com.sun.android.constants.*
+import com.sun.android.utils.constants.CAT_INDEX_KEY
+import com.sun.android.utils.constants.DEFAULT_CAT_INDEX
+import com.sun.android.utils.constants.DEFAULT_LANGUAGE
+import com.sun.android.utils.constants.LANGUAGE_KEY
 
 class CatDetailActivity : AppCompatActivity() {
 

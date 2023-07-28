@@ -6,8 +6,8 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.sun.android.constants.FOOD_NAME_KEY
-import com.sun.android.constants.RESOURCE_ID_KEY
+import com.sun.android.utils.constants.FOOD_NAME_KEY
+import com.sun.android.utils.constants.RESOURCE_ID_KEY
 import com.sun.android.databinding.ItemFoodBinding
 
 class FoodAdapter(val context: Context) : RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {
